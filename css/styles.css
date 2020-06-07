@@ -63,6 +63,7 @@ html {
 }
 a {
   outline: none;
+  display: block;
 }
 body {
   font-family: var(--main-font);
@@ -416,7 +417,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
 }
-.social-list__item {
+.social-list__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -433,10 +434,10 @@ body {
   -o-transition: background-color 200ms linear;
   transition: background-color 200ms linear;
 }
-.social-list__item:hover {
+.social-list__link:hover {
   background-color: var(--color-hover);
 }
-.social-list__item:hover .social-list__icon {
+.social-list__link:hover .social-list__icon {
   fill: var(--color-text-hero);
 }
 .social-list__icon {
